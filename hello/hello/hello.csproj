@@ -91,7 +91,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="hiii.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -116,13 +115,6 @@
     </Compile>
     <Compile Include="hello.aspx.designer.cs">
       <DependentUpon>hello.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="hiii.aspx.cs">
-      <DependentUpon>hiii.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="hiii.aspx.designer.cs">
-      <DependentUpon>hiii.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
